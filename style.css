@@ -64,18 +64,18 @@ h1::after {
 }
 /*--About--*/
 #about {
-  background: url("images/about2.jpg") no-repeat center/cover;
+  background: #efefef;
   height: 670px;
   padding-top: 100px;
   padding-bottom: 50px;
-  color: #fff;
+  color: #000;
 }
 #about .btn {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 .about-content {
-  padding-top: 0px;
+  padding-top: 25px;
 }
 /*--products--*/
 #products {
