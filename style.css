@@ -8,7 +8,7 @@ h1 {
 }
 h1::after {
   content: "";
-  background: #ff2600;
+  background: #002366;
   display: block;
   height: 3px;
   width: 170px;
@@ -21,7 +21,7 @@ h1::after {
   z-index: 10;
 }
 #nav-bar p {
-  color: red;
+  color:  #002366;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   width: 80px;
@@ -40,19 +40,27 @@ h1::after {
 }
 .navbar {
   background: #fff;
-  color: #ff2600;
+  color:  #002366;
 }
 .navbar button {
   border: none !important;
 }
 .nav-link {
-  color: #ff2600 !important;
+  color:  #002366 !important;
   font-weight: 600;
   font-size: 1rem;
 }
 /*--Slider--*/
 #slider {
   width: 100%;
+}
+/*--Landing--*/
+#landing {
+  background: url("images/landing.jpg") no-repeat center/cover;
+  height: 670px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #fff;
 }
 /*--About--*/
 #about {
@@ -87,15 +95,16 @@ h1::after {
   box-shadow: 0 2px 20px #333;
 }
 .product-head {
-  background: #000;
+  background: #fff;
   display: inline;
   float: left;
   padding: 10px 5px;
   text-align: center;
   width: 100%;
+  border: 3px solid #000;
 }
 .product-head h2 {
-  color: #ff2600;
+  color:  #002366;
   font-size: 30;
   font-weight: bold;
   margin-bottom: 5px;
@@ -104,42 +113,24 @@ h1::after {
 }
 .product-head p {
   font-size: 25px;
-  color: rgb(212, 78, 78);
+  color:  #002366;
   font-weight: bold;
   line-height: 30px;
 }
 .product-content {
   display: inline;
+  background: #fff;
+  border: 3px solid #000;
   float: left;
   width: 100%;
   padding: 0 15px;
 }
 .product-content ul li {
-  border-bottom: 1px solid #efefef;
-  padding: 15px 10px;
+  border-bottom: 1px solid #fff;
   list-style: none;
 }
 ul li:last-child {
   border: none;
-}
-.product-button {
-  display: inline;
-  float: left;
-  padding: 15px 15px 30px;
-  text-align: center;
-  width: 100%;
-}
-.buy-btn {
-  background: #ff2600;
-  border-radius: 3px;
-  display: inline;
-  font-size: 18px;
-  padding: 15px 50px;
-  transition: 0.5s;
-}
-.buy-btn:hover {
-  border-color: 1px solid #fff;
-  background: #3f51b5;
 }
 a {
   text-decortion: none !important;
@@ -196,7 +187,7 @@ a {
 .profile h3 {
   font-size: 20px;
   margin-top: 15px;
-  color: #ff2600;
+  color:  #002366;
 }
 blockquote {
   background: #f9f9f9;
@@ -206,7 +197,7 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote::before {
-  color: #ff2600;
+  color:  #002366;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -214,7 +205,7 @@ blockquote::before {
   vertical-align: -0.4em;
 }
 blockquote::after {
-  color: #ff2600;
+  color:  #002366;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -258,7 +249,7 @@ blockquote p {
   padding: 5px;
 }
 #contact button {
-  background: #ff2600;
+  background:  #002366;
   border: none;
   color: #fff;
 }
@@ -276,14 +267,14 @@ blockquote p {
 footer ul li {
   color: #000;
   list-style: none;
-  color: red;
+  color:  #002366;
 }
 footer a {
   color: #000 !important;
   font-family: Trebuchet;
 }
 footer a:hover {
-  color: #ff2600 !important;
+  color:  #002366 !important;
   cursor: pointer;
   transition: 0.2s;
 }
