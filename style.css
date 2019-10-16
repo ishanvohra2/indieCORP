@@ -64,8 +64,8 @@ h1::after {
 }
 /*--About--*/
 #about {
-  background: #efefef;
-  height: 670px;
+  background: #efefef40;
+  height: 580px;
   padding-top: 100px;
   padding-bottom: 50px;
   color: #000;
@@ -80,33 +80,33 @@ h1::after {
 /*--products--*/
 #products {
   padding: 50px 0;
-  background: #efefef;
+  background: #efefef2e;
 }
 
 .single-product {
-  margin: 10px auto;
-  display: inline;
-  float: left;
-  width: 100%;
-  background: #fff;
-  transition: 0.5s;
+    margin: 10px auto;
+    display: inline;
+    float: right;
+    width: 100%;
+    background: #fff;
+    box-shadow: 3px 3px 9px rgba(0,0,0,0.5);
+    transition: 0.5s;
 }
+/*
 .single-product:hover {
   box-shadow: 0 2px 20px #333;
-}
+}*/
 .product-head {
-  background: #fff;
+  font-family: raleway;
   display: inline;
   float: left;
   padding: 10px 5px;
   text-align: center;
   width: 100%;
-  border: 3px solid #000;
 }
 .product-head h2 {
   color:  #002366;
   font-size: 30;
-  font-weight: bold;
   margin-bottom: 5px;
   padding: 5px;
   text-transform: uppercase;
@@ -118,12 +118,12 @@ h1::after {
   line-height: 30px;
 }
 .product-content {
+  font-family: raleway;
   display: inline;
-  background: #fff;
-  border: 3px solid #000;
   float: left;
   width: 100%;
   padding: 0 15px;
+ padding-bottom: 25px;
 }
 .product-content ul li {
   border-bottom: 1px solid #fff;
@@ -142,7 +142,7 @@ a {
   color: #fff;
   background-attachment: fixed;
   text-align: center;
-  padding: 100px;
+  padding: 160px;
   padding-bottom: 50;
 }
 #promo h1 {
